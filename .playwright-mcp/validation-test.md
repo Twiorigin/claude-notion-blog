@@ -1,0 +1,31 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 로그인
+      - generic [ref=e7]: 계정에 로그인하세요
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: 이메일
+          - textbox "이메일" [active] [ref=e12]:
+            - /placeholder: name@example.com
+          - paragraph [ref=e37]: 유효한 이메일을 입력하세요
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]: 비밀번호
+            - link "비밀번호를 잊으셨나요?" [ref=e16] [cursor=pointer]:
+              - /url: /forgot-password
+          - textbox "비밀번호" [ref=e17]:
+            - /placeholder: ••••••••
+          - paragraph [ref=e38]: 비밀번호는 최소 8자 이상이어야 합니다
+        - button "로그인" [ref=e18]
+      - generic [ref=e23]: 또는
+      - button "Google로 로그인" [ref=e24]
+      - paragraph [ref=e25]:
+        - text: 계정이 없으신가요?
+        - link "회원가입" [ref=e26] [cursor=pointer]:
+          - /url: /register
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e32] [cursor=pointer]:
+    - img [ref=e33]
+  - alert [ref=e36]

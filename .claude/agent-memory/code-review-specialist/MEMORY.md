@@ -1,0 +1,1 @@
+- [프로젝트 코딩 패턴 및 구조](project-patterns.md) — 디렉토리 구조, 컴포넌트 패턴, TypeScript/Tailwind 규칙

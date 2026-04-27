@@ -1,0 +1,156 @@
+- generic:
+  - generic:
+    - complementary:
+      - generic:
+        - link:
+          - /url: /
+          - generic: S
+          - generic: StarterKit
+        - button:
+          - img
+      - navigation:
+        - link:
+          - /url: /dashboard
+          - img
+          - generic: 대시보드
+        - link:
+          - /url: /dashboard/analytics
+          - img
+          - generic: 통계
+        - link:
+          - /url: /dashboard/users
+          - img
+          - generic: 사용자
+        - link:
+          - /url: /dashboard/settings
+          - img
+          - generic: 설정
+      - generic:
+        - generic:
+          - generic: 사용자
+    - generic:
+      - generic:
+        - generic:
+          - heading [level=1]: 대시보드
+          - paragraph: 환영합니다
+        - generic:
+          - button [expanded]:
+            - img
+            - generic: "3"
+          - button:
+            - generic:
+              - generic: U
+            - generic: User
+      - main:
+        - generic:
+          - generic:
+            - heading [level=2]: 통계 요약
+            - paragraph: 지난 30일간의 주요 지표
+          - generic:
+            - generic:
+              - generic:
+                - generic: 총 사용자
+                - img
+              - generic:
+                - generic: 12,543
+                - generic:
+                  - img
+                  - generic: +12%
+                  - generic: 지난 달 대비
+            - generic:
+              - generic:
+                - generic: 매출
+                - img
+              - generic:
+                - generic: $45,231
+                - generic:
+                  - img
+                  - generic: +8%
+                  - generic: 지난 달 대비
+            - generic:
+              - generic:
+                - generic: 활성 세션
+                - img
+              - generic:
+                - generic: 3,421
+                - generic:
+                  - generic: 현재 온라인
+            - generic:
+              - generic:
+                - generic: 전환율
+                - img
+              - generic:
+                - generic: 3.84%
+                - generic:
+                  - img
+                  - generic: "-2%"
+                  - generic: 지난 달 대비
+          - generic:
+            - heading [level=3]: 최근 활동
+            - generic:
+              - generic:
+                - generic: 활동 목록
+                - generic: 최근 7일간의 활동
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph: 새 사용자 가입
+                    - paragraph: 2시간 전
+                  - generic:
+                    - paragraph: 주문 완료
+                    - paragraph: 4시간 전
+                  - generic:
+                    - paragraph: 설정 업데이트
+                    - paragraph: 1일 전
+                  - generic:
+                    - paragraph: 피드백 제출
+                    - paragraph: 2일 전
+                  - generic:
+                    - paragraph: 계정 생성
+                    - paragraph: 3일 전
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e32] [cursor=pointer]:
+    - img [ref=e33]
+  - alert: 대시보드 | StarterKit
+  - dialog "알림" [ref=e173]:
+    - generic [ref=e174]:
+      - generic [ref=e175]:
+        - heading "알림" [level=2] [ref=e176]
+        - button "모두 읽음" [active] [ref=e177]:
+          - img
+          - text: 모두 읽음
+      - paragraph [ref=e178]: 알림 목록
+    - generic [ref=e179]:
+      - generic [ref=e181] [cursor=pointer]:
+        - img [ref=e183]
+        - generic [ref=e185]:
+          - paragraph [ref=e187]: 새 사용자 가입
+          - paragraph [ref=e189]: 이서연 님이 가입했습니다.
+          - paragraph [ref=e190]: 5분 전
+      - generic [ref=e192] [cursor=pointer]:
+        - img [ref=e194]
+        - generic [ref=e197]:
+          - paragraph [ref=e199]: 결제 완료
+          - paragraph [ref=e201]: 월정액 구독이 정상 처리되었습니다.
+          - paragraph [ref=e202]: 1시간 전
+      - generic [ref=e204] [cursor=pointer]:
+        - img [ref=e206]
+        - generic [ref=e208]:
+          - paragraph [ref=e210]: 보안 알림
+          - paragraph [ref=e212]: 새로운 기기에서 로그인이 감지되었습니다.
+          - paragraph [ref=e213]: 3시간 전
+      - generic [ref=e215] [cursor=pointer]:
+        - img [ref=e217]
+        - generic [ref=e219]:
+          - paragraph [ref=e221]: 시스템 업데이트
+          - paragraph [ref=e222]: 새 버전이 배포되었습니다.
+          - paragraph [ref=e223]: 어제
+      - generic [ref=e225] [cursor=pointer]:
+        - img [ref=e227]
+        - generic [ref=e230]:
+          - paragraph [ref=e232]: 통계 보고서 생성
+          - paragraph [ref=e233]: 4월 월간 보고서가 준비되었습니다.
+          - paragraph [ref=e234]: 2일 전
+    - button "Close" [ref=e235]:
+      - img
+      - generic [ref=e236]: Close

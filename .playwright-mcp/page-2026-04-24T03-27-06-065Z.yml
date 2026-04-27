@@ -1,0 +1,99 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - link "S StarterKit" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e6]: S
+          - generic [ref=e7]: StarterKit
+        - button "접기" [ref=e8]:
+          - img
+      - navigation [ref=e9]:
+        - link "대시보드" [ref=e10] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e11]
+          - generic [ref=e14]: 대시보드
+        - link "통계" [ref=e15] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - img [ref=e16]
+          - generic [ref=e18]: 통계
+        - link "사용자" [ref=e19] [cursor=pointer]:
+          - /url: /dashboard/users
+          - img [ref=e20]
+          - generic [ref=e25]: 사용자
+        - link "설정" [ref=e26] [cursor=pointer]:
+          - /url: /dashboard/settings
+          - img [ref=e27]
+          - generic [ref=e30]: 설정
+      - generic [ref=e34]: 사용자
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "대시보드" [level=1] [ref=e38]
+          - paragraph [ref=e39]: 환영합니다
+        - generic [ref=e40]:
+          - button "알림" [ref=e41]:
+            - img
+            - generic [ref=e42]: "3"
+          - button "U User" [ref=e43]:
+            - generic [ref=e45]: U
+            - generic [ref=e46]: User
+      - main [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - heading "내 프로필" [level=2] [ref=e50]
+            - paragraph [ref=e51]: 계정 정보를 확인하고 수정합니다
+          - generic [ref=e53]:
+            - generic [ref=e55]: U
+            - generic [ref=e56]:
+              - generic [ref=e57]:
+                - heading "사용자" [level=3] [ref=e58]
+                - generic [ref=e59]: 관리자
+              - paragraph [ref=e60]: user@example.com
+              - paragraph [ref=e61]: 2024년 1월 15일부터 사용 중
+            - button "사진 변경" [ref=e62]
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e65]: 기본 정보
+              - generic [ref=e66]: 프로필 정보를 수정합니다
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - generic [ref=e70]:
+                  - generic [ref=e71]: 이름
+                  - textbox "이름" [active] [ref=e72]
+                  - paragraph [ref=e114]: 이름을 입력하세요
+                - generic [ref=e73]:
+                  - generic [ref=e74]: 사용자명
+                  - textbox "사용자명" [ref=e75]: "@user"
+              - generic [ref=e76]:
+                - generic [ref=e77]: 이메일
+                - textbox "이메일" [ref=e78]: user@example.com
+              - generic [ref=e79]:
+                - generic [ref=e80]: 소개
+                - textbox "소개" [ref=e81]:
+                  - /placeholder: 자신을 소개해 주세요
+              - button "변경사항 저장" [ref=e82]
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e85]: 최근 활동
+              - generic [ref=e86]: 최근 로그인 및 활동 이력
+            - generic [ref=e88]:
+              - generic [ref=e89]:
+                - generic [ref=e90]:
+                  - paragraph [ref=e91]: 로그인
+                  - paragraph [ref=e92]: Chrome / Windows · Seoul, KR
+                - generic [ref=e93]: 방금 전
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - paragraph [ref=e96]: 설정 변경
+                  - paragraph [ref=e97]: Chrome / Windows · Seoul, KR
+                - generic [ref=e98]: 2시간 전
+              - generic [ref=e99]:
+                - generic [ref=e100]:
+                  - paragraph [ref=e101]: 로그인
+                  - paragraph [ref=e102]: Safari / iPhone · Seoul, KR
+                - generic [ref=e103]: 어제
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e109] [cursor=pointer]:
+    - img [ref=e110]
+  - alert [ref=e113]
