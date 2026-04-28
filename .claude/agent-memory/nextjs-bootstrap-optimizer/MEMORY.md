@@ -1,0 +1,2 @@
+- [블로그 프로젝트 전환 컨텍스트](project_blog_context.md) — 대시보드 스타터 → Notion CMS 블로그 전환 결정사항
+- [Next.js 16 주요 파괴적 변경사항](nextjs16_breaking_changes.md) — middleware→proxy, revalidate→'use cache', databases.query→dataSources.query

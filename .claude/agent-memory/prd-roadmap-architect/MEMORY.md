@@ -1,0 +1,2 @@
+- [블로그 프로젝트 컨텍스트](project_blog_context.md) — Notion CMS 블로그 전환 현재 상태 및 dataSources.query 리스크
+- [사용자 프로필](user_profile.md) — 1인 풀스택 개발자 Twiorigin, 한국어 문서화 선호

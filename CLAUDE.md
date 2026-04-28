@@ -1,4 +1,6 @@
 @AGENTS.md
+@docs/PRD.md
+@docs/ROADMAP.md
 
 # claude-nextjs-starters CLAUDE.md
 
